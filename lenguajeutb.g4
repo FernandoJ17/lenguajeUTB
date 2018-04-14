@@ -27,7 +27,7 @@ si: INICIO_SI expresion ENTONCES sentencias+ (SINO ENTONCES sentencias+)? FIN_SI
 
 expresion: div ((SUMA|RESTA) div)*;
 div: atom ((MULTIPLICACION|DIVISION|MODULO) atom)*;
-atom: (t=TEXTO|e=ENTERO|r=REAL|PAR_IZQ exp=expresion PAR_DER|conv=conversion|iden=IDENTIFICADOR);
+atom: (t=TEXTO|e=ENTERO|r=REAL|b=BOOL|PAR_IZQ exp=expresion PAR_DER|conv=conversion|iden=IDENTIFICADOR);
 conversion: CONVERTIR expresion A (TIPO_ENTERO|TIPO_REAL|TIPO_TEXTO|TIPO_BOOLEANO);
 acceso_lista: CAMBIAR_VALOR_DE IDENTIFICADOR EN_POSICION expresion POR expresion;
 acceso_matriz: CAMBIAR_VALOR_DE IDENTIFICADOR EN_COORDENADA PAR_IZQ expresion COMA expresion PAR_DER;

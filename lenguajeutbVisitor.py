@@ -30,7 +30,7 @@ class lenguajeutbVisitor(ParseTreeVisitor):
         if ctx.entero is not None:
             lenguajeutbVisitor.tabla_de_simbolos[ctx.entero.text] = int
         elif ctx.real is not None:
-            lenguajeutbVisitor.tabla_de_simbolos[ctx.real.text] = float
+            lenguajeutbVisitor.tabla_de_simbolos[ctx.real.text] = int
         elif ctx.booleano is not None:
             lenguajeutbVisitor.tabla_de_simbolos[ctx.booleano.text] = bool
         elif ctx.texto is not None:

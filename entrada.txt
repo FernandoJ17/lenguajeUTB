@@ -1,7 +1,7 @@
 Nombre_del_ejercicio tujeta
 variables
-    tipo entero nombre $a valor_inicial 0
+    tipo entero nombre $b valor_inicial 0.232
 fin_variables
 Flujo
-    mostrar_en_pantalla 10 + <>asdf<>
+    mostrar_en_pantalla $b
 fin_flujo
