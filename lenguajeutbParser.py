@@ -248,6 +248,12 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_start_rule
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitStart_rule" ):
+                return visitor.visitStart_rule(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -285,6 +291,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_nombre_programa
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitNombre_programa" ):
+                return visitor.visitNombre_programa(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -328,6 +340,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_variables
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitVariables" ):
+                return visitor.visitVariables(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -442,6 +460,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_declaracion
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitDeclaracion" ):
+                return visitor.visitDeclaracion(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -602,6 +626,12 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_flujo
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFlujo" ):
+                return visitor.visitFlujo(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -664,6 +694,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_sentencias
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSentencias" ):
+                return visitor.visitSentencias(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -730,6 +766,12 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_asignacion
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAsignacion" ):
+                return visitor.visitAsignacion(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -776,6 +818,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_ciclo_para
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitCiclo_para" ):
+                return visitor.visitCiclo_para(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -832,6 +880,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_ciclo_mientras
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitCiclo_mientras" ):
+                return visitor.visitCiclo_mientras(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -901,6 +955,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_si
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSi" ):
+                return visitor.visitSi(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -990,6 +1050,12 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_expresion
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitExpresion" ):
+                return visitor.visitExpresion(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1060,6 +1126,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_div
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitDiv" ):
+                return visitor.visitDiv(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1138,6 +1210,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_atom
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAtom" ):
+                return visitor.visitAtom(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1221,6 +1299,12 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_conversion
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitConversion" ):
+                return visitor.visitConversion(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1279,6 +1363,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_acceso_lista
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAcceso_lista" ):
+                return visitor.visitAcceso_lista(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1343,6 +1433,12 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_acceso_matriz
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAcceso_matriz" ):
+                return visitor.visitAcceso_matriz(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1381,6 +1477,7 @@ class lenguajeutbParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+            self.exp = None # ExpresionContext
 
         def MOSTRAR_EN_PANTALLA(self):
             return self.getToken(lenguajeutbParser.MOSTRAR_EN_PANTALLA, 0)
@@ -1391,6 +1488,12 @@ class lenguajeutbParser ( Parser ):
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_imprimir
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitImprimir" ):
+                return visitor.visitImprimir(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1404,7 +1507,7 @@ class lenguajeutbParser ( Parser ):
             self.state = 199
             self.match(lenguajeutbParser.MOSTRAR_EN_PANTALLA)
             self.state = 200
-            self.expresion()
+            localctx.exp = self.expresion()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)

@@ -12,6 +12,7 @@ else:
 
 class lenguajeutbVisitor(ParseTreeVisitor):
     tabla_de_simbolos = {}  # Las llaves son los nombres de las variables y los valores los tipos de dato de cada una.
+    resultado = ""  # Código en ensamblador MIPS resultante
 
     # Visit a parse tree produced by lenguajeutbParser#start_rule.
     def visitStart_rule(self, ctx: lenguajeutbParser.Start_ruleContext):
@@ -52,7 +53,6 @@ class lenguajeutbVisitor(ParseTreeVisitor):
             lenguajeutbVisitor.tabla_de_simbolos[ctx.entero.text] = ([[]], float)
         elif ctx.matriz_texto is not None:
             lenguajeutbVisitor.tabla_de_simbolos[ctx.entero.text] = ([[]], str)
-        print([type(child) for child in ctx.children])
         return self.visitChildren(ctx)
 
     # Visit a parse tree produced by lenguajeutbParser#flujo.
@@ -111,11 +111,10 @@ class lenguajeutbVisitor(ParseTreeVisitor):
                             raise ValueError
                     else:
                         raise ValueError
-                if operador == "/":
+                if operador == "+":
                     pass
                 else:
                     pass
-        print("Resultado de la expresion: ", resultado)
         return resultado
 
     # Visit a parse tree produced by lenguajeutbParser#div.
@@ -154,7 +153,6 @@ class lenguajeutbVisitor(ParseTreeVisitor):
                     pass
                 else:
                     pass
-        print(resultado)
         return resultado
 
     # Visit a parse tree produced by lenguajeutbParser#atom.
@@ -190,6 +188,5 @@ class lenguajeutbVisitor(ParseTreeVisitor):
     # Visit a parse tree produced by lenguajeutbParser#imprimir.
     def visitImprimir(self, ctx: lenguajeutbParser.ImprimirContext):
         return self.visitChildren(ctx)
-
 
 del lenguajeutbParser

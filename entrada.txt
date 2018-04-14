@@ -3,5 +3,5 @@ variables
     tipo entero nombre $a valor_inicial 0
 fin_variables
 Flujo
-    mostrar_en_pantalla 10
+    mostrar_en_pantalla 10 + <>asdf<>
 fin_flujo
