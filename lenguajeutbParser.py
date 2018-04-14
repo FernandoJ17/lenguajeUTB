@@ -8,83 +8,85 @@ import sys
 def serializedATN():
     with StringIO() as buf:
         buf.write("\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3A")
-        buf.write("\u00cc\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7")
+        buf.write("\u00cd\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7")
         buf.write("\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t\13\4\f\t\f\4\r\t\r\4\16")
         buf.write("\t\16\4\17\t\17\4\20\t\20\4\21\t\21\4\22\t\22\3\2\3\2")
-        buf.write("\3\2\3\2\3\3\3\3\3\3\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3")
-        buf.write("\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4")
-        buf.write("\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3")
-        buf.write("\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\5\4W\n\4\7\4Y\n\4\f\4\16")
-        buf.write("\4\\\13\4\3\4\3\4\3\5\3\5\6\5b\n\5\r\5\16\5c\3\5\3\5\3")
-        buf.write("\6\3\6\3\6\3\6\3\6\5\6m\n\6\3\7\3\7\3\7\3\7\3\7\3\b\3")
-        buf.write("\b\6\bv\n\b\r\b\16\bw\3\b\3\b\3\t\3\t\6\t~\n\t\r\t\16")
-        buf.write("\t\177\3\t\3\t\3\n\3\n\3\n\3\n\6\n\u0088\n\n\r\n\16\n")
-        buf.write("\u0089\3\n\3\n\3\n\6\n\u008f\n\n\r\n\16\n\u0090\5\n\u0093")
-        buf.write("\n\n\3\n\3\n\3\13\3\13\3\13\7\13\u009a\n\13\f\13\16\13")
-        buf.write("\u009d\13\13\3\f\3\f\3\f\7\f\u00a2\n\f\f\f\16\f\u00a5")
-        buf.write("\13\f\3\r\3\r\3\r\3\r\3\r\3\r\3\r\3\r\3\r\5\r\u00b0\n")
-        buf.write("\r\3\16\3\16\3\16\3\16\3\16\3\17\3\17\3\17\3\17\3\17\3")
-        buf.write("\17\3\17\3\20\3\20\3\20\3\20\3\20\3\20\3\20\3\20\3\20")
-        buf.write("\3\21\3\21\3\21\3\22\3\22\3\22\2\2\23\2\4\6\b\n\f\16\20")
-        buf.write("\22\24\26\30\32\34\36 \"\2\5\3\2\63\64\3\2\65\67\3\2)")
-        buf.write(",\2\u00d6\2$\3\2\2\2\4(\3\2\2\2\6+\3\2\2\2\b_\3\2\2\2")
-        buf.write("\nl\3\2\2\2\fn\3\2\2\2\16s\3\2\2\2\20{\3\2\2\2\22\u0083")
-        buf.write("\3\2\2\2\24\u0096\3\2\2\2\26\u009e\3\2\2\2\30\u00af\3")
-        buf.write("\2\2\2\32\u00b1\3\2\2\2\34\u00b6\3\2\2\2\36\u00bd\3\2")
-        buf.write("\2\2 \u00c6\3\2\2\2\"\u00c9\3\2\2\2$%\5\4\3\2%&\5\6\4")
-        buf.write("\2&\'\5\b\5\2\'\3\3\2\2\2()\7\17\2\2)*\7@\2\2*\5\3\2\2")
-        buf.write("\2+Z\7\21\2\2,V\7 \2\2-.\7)\2\2./\7-\2\2/\60\7?\2\2\60")
-        buf.write("\61\7.\2\2\61W\78\2\2\62\63\7*\2\2\63\64\7-\2\2\64\65")
-        buf.write("\7?\2\2\65\66\7.\2\2\66W\79\2\2\678\7,\2\289\7-\2\29:")
-        buf.write("\7?\2\2:;\7.\2\2;W\7>\2\2<=\7+\2\2=>\7-\2\2>?\7?\2\2?")
-        buf.write("@\7.\2\2@W\7;\2\2AB\7!\2\2BC\7-\2\2CW\7?\2\2DE\7$\2\2")
-        buf.write("EF\7-\2\2FW\7?\2\2GH\7\"\2\2HI\7-\2\2IW\7?\2\2JK\7\'\2")
-        buf.write("\2KL\7-\2\2LW\7?\2\2MN\7(\2\2NO\7-\2\2OW\7?\2\2PQ\7%\2")
-        buf.write("\2QR\7-\2\2RW\7?\2\2ST\7&\2\2TU\7-\2\2UW\7?\2\2V-\3\2")
-        buf.write("\2\2V\62\3\2\2\2V\67\3\2\2\2V<\3\2\2\2VA\3\2\2\2VD\3\2")
-        buf.write("\2\2VG\3\2\2\2VJ\3\2\2\2VM\3\2\2\2VP\3\2\2\2VS\3\2\2\2")
-        buf.write("WY\3\2\2\2X,\3\2\2\2Y\\\3\2\2\2ZX\3\2\2\2Z[\3\2\2\2[]")
-        buf.write("\3\2\2\2\\Z\3\2\2\2]^\7\22\2\2^\7\3\2\2\2_a\7\23\2\2`")
-        buf.write("b\5\n\6\2a`\3\2\2\2bc\3\2\2\2ca\3\2\2\2cd\3\2\2\2de\3")
-        buf.write("\2\2\2ef\7\24\2\2f\t\3\2\2\2gm\5\f\7\2hm\5\16\b\2im\5")
-        buf.write("\20\t\2jm\5\22\n\2km\5 \21\2lg\3\2\2\2lh\3\2\2\2li\3\2")
-        buf.write("\2\2lj\3\2\2\2lk\3\2\2\2m\13\3\2\2\2no\7\16\2\2op\7?\2")
-        buf.write("\2pq\7\r\2\2qr\5\24\13\2r\r\3\2\2\2su\7\7\2\2tv\5\n\6")
-        buf.write("\2ut\3\2\2\2vw\3\2\2\2wu\3\2\2\2wx\3\2\2\2xy\3\2\2\2y")
-        buf.write("z\7\b\2\2z\17\3\2\2\2{}\7\t\2\2|~\5\n\6\2}|\3\2\2\2~\177")
-        buf.write("\3\2\2\2\177}\3\2\2\2\177\u0080\3\2\2\2\u0080\u0081\3")
-        buf.write("\2\2\2\u0081\u0082\7\n\2\2\u0082\21\3\2\2\2\u0083\u0084")
-        buf.write("\7\13\2\2\u0084\u0085\5\24\13\2\u0085\u0087\7\4\2\2\u0086")
-        buf.write("\u0088\5\n\6\2\u0087\u0086\3\2\2\2\u0088\u0089\3\2\2\2")
-        buf.write("\u0089\u0087\3\2\2\2\u0089\u008a\3\2\2\2\u008a\u0092\3")
-        buf.write("\2\2\2\u008b\u008c\7\3\2\2\u008c\u008e\7\4\2\2\u008d\u008f")
-        buf.write("\5\n\6\2\u008e\u008d\3\2\2\2\u008f\u0090\3\2\2\2\u0090")
-        buf.write("\u008e\3\2\2\2\u0090\u0091\3\2\2\2\u0091\u0093\3\2\2\2")
-        buf.write("\u0092\u008b\3\2\2\2\u0092\u0093\3\2\2\2\u0093\u0094\3")
-        buf.write("\2\2\2\u0094\u0095\7\f\2\2\u0095\23\3\2\2\2\u0096\u009b")
-        buf.write("\5\26\f\2\u0097\u0098\t\2\2\2\u0098\u009a\5\26\f\2\u0099")
-        buf.write("\u0097\3\2\2\2\u009a\u009d\3\2\2\2\u009b\u0099\3\2\2\2")
-        buf.write("\u009b\u009c\3\2\2\2\u009c\25\3\2\2\2\u009d\u009b\3\2")
-        buf.write("\2\2\u009e\u00a3\5\30\r\2\u009f\u00a0\t\3\2\2\u00a0\u00a2")
-        buf.write("\5\30\r\2\u00a1\u009f\3\2\2\2\u00a2\u00a5\3\2\2\2\u00a3")
-        buf.write("\u00a1\3\2\2\2\u00a3\u00a4\3\2\2\2\u00a4\27\3\2\2\2\u00a5")
-        buf.write("\u00a3\3\2\2\2\u00a6\u00b0\7>\2\2\u00a7\u00b0\78\2\2\u00a8")
-        buf.write("\u00b0\79\2\2\u00a9\u00aa\7\61\2\2\u00aa\u00ab\5\24\13")
-        buf.write("\2\u00ab\u00ac\7\62\2\2\u00ac\u00b0\3\2\2\2\u00ad\u00b0")
-        buf.write("\5\32\16\2\u00ae\u00b0\7?\2\2\u00af\u00a6\3\2\2\2\u00af")
-        buf.write("\u00a7\3\2\2\2\u00af\u00a8\3\2\2\2\u00af\u00a9\3\2\2\2")
-        buf.write("\u00af\u00ad\3\2\2\2\u00af\u00ae\3\2\2\2\u00b0\31\3\2")
-        buf.write("\2\2\u00b1\u00b2\7\35\2\2\u00b2\u00b3\5\24\13\2\u00b3")
-        buf.write("\u00b4\7\36\2\2\u00b4\u00b5\t\4\2\2\u00b5\33\3\2\2\2\u00b6")
-        buf.write("\u00b7\7\16\2\2\u00b7\u00b8\7?\2\2\u00b8\u00b9\7\32\2")
-        buf.write("\2\u00b9\u00ba\5\24\13\2\u00ba\u00bb\7\r\2\2\u00bb\u00bc")
-        buf.write("\5\24\13\2\u00bc\35\3\2\2\2\u00bd\u00be\7\16\2\2\u00be")
-        buf.write("\u00bf\7?\2\2\u00bf\u00c0\7\33\2\2\u00c0\u00c1\7\61\2")
-        buf.write("\2\u00c1\u00c2\5\24\13\2\u00c2\u00c3\7\6\2\2\u00c3\u00c4")
-        buf.write("\5\24\13\2\u00c4\u00c5\7\62\2\2\u00c5\37\3\2\2\2\u00c6")
-        buf.write("\u00c7\7\5\2\2\u00c7\u00c8\5\24\13\2\u00c8!\3\2\2\2\u00c9")
-        buf.write("\u00ca\7>\2\2\u00ca#\3\2\2\2\16VZclw\177\u0089\u0090\u0092")
-        buf.write("\u009b\u00a3\u00af")
+        buf.write("\3\2\3\2\3\3\3\3\3\3\3\4\3\4\6\4.\n\4\r\4\16\4/\3\4\3")
+        buf.write("\4\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5")
+        buf.write("\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3")
+        buf.write("\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5\3\5")
+        buf.write("\3\5\3\5\3\5\3\5\3\5\5\5a\n\5\3\6\3\6\6\6e\n\6\r\6\16")
+        buf.write("\6f\3\6\3\6\3\7\3\7\3\7\3\7\3\7\5\7p\n\7\3\b\3\b\3\b\3")
+        buf.write("\b\3\b\3\t\3\t\6\ty\n\t\r\t\16\tz\3\t\3\t\3\n\3\n\6\n")
+        buf.write("\u0081\n\n\r\n\16\n\u0082\3\n\3\n\3\13\3\13\3\13\3\13")
+        buf.write("\6\13\u008b\n\13\r\13\16\13\u008c\3\13\3\13\3\13\6\13")
+        buf.write("\u0092\n\13\r\13\16\13\u0093\5\13\u0096\n\13\3\13\3\13")
+        buf.write("\3\f\3\f\3\f\7\f\u009d\n\f\f\f\16\f\u00a0\13\f\3\r\3\r")
+        buf.write("\3\r\7\r\u00a5\n\r\f\r\16\r\u00a8\13\r\3\16\3\16\3\16")
+        buf.write("\3\16\3\16\3\16\3\16\3\16\3\16\5\16\u00b3\n\16\3\17\3")
+        buf.write("\17\3\17\3\17\3\17\3\20\3\20\3\20\3\20\3\20\3\20\3\20")
+        buf.write("\3\21\3\21\3\21\3\21\3\21\3\21\3\21\3\21\3\21\3\22\3\22")
+        buf.write("\3\22\3\22\2\2\23\2\4\6\b\n\f\16\20\22\24\26\30\32\34")
+        buf.write("\36 \"\2\5\3\2\63\64\3\2\65\67\3\2),\2\u00d8\2$\3\2\2")
+        buf.write("\2\4(\3\2\2\2\6+\3\2\2\2\b\63\3\2\2\2\nb\3\2\2\2\fo\3")
+        buf.write("\2\2\2\16q\3\2\2\2\20v\3\2\2\2\22~\3\2\2\2\24\u0086\3")
+        buf.write("\2\2\2\26\u0099\3\2\2\2\30\u00a1\3\2\2\2\32\u00b2\3\2")
+        buf.write("\2\2\34\u00b4\3\2\2\2\36\u00b9\3\2\2\2 \u00c0\3\2\2\2")
+        buf.write("\"\u00c9\3\2\2\2$%\5\4\3\2%&\5\6\4\2&\'\5\n\6\2\'\3\3")
+        buf.write("\2\2\2()\7\17\2\2)*\7@\2\2*\5\3\2\2\2+-\7\21\2\2,.\5\b")
+        buf.write("\5\2-,\3\2\2\2./\3\2\2\2/-\3\2\2\2/\60\3\2\2\2\60\61\3")
+        buf.write("\2\2\2\61\62\7\22\2\2\62\7\3\2\2\2\63`\7 \2\2\64\65\7")
+        buf.write(")\2\2\65\66\7-\2\2\66\67\7?\2\2\678\7.\2\28a\5\26\f\2")
+        buf.write("9:\7*\2\2:;\7-\2\2;<\7?\2\2<=\7.\2\2=a\5\26\f\2>?\7,\2")
+        buf.write("\2?@\7-\2\2@A\7?\2\2AB\7.\2\2Ba\7>\2\2CD\7+\2\2DE\7-\2")
+        buf.write("\2EF\7?\2\2FG\7.\2\2Ga\5\26\f\2HI\7!\2\2IJ\7-\2\2Ja\7")
+        buf.write("?\2\2KL\7$\2\2LM\7-\2\2Ma\7?\2\2NO\7\"\2\2OP\7-\2\2Pa")
+        buf.write("\7?\2\2QR\7#\2\2RS\7-\2\2Sa\7?\2\2TU\7\'\2\2UV\7-\2\2")
+        buf.write("Va\7?\2\2WX\7(\2\2XY\7-\2\2Ya\7?\2\2Z[\7%\2\2[\\\7-\2")
+        buf.write("\2\\a\7?\2\2]^\7&\2\2^_\7-\2\2_a\7?\2\2`\64\3\2\2\2`9")
+        buf.write("\3\2\2\2`>\3\2\2\2`C\3\2\2\2`H\3\2\2\2`K\3\2\2\2`N\3\2")
+        buf.write("\2\2`Q\3\2\2\2`T\3\2\2\2`W\3\2\2\2`Z\3\2\2\2`]\3\2\2\2")
+        buf.write("a\t\3\2\2\2bd\7\23\2\2ce\5\f\7\2dc\3\2\2\2ef\3\2\2\2f")
+        buf.write("d\3\2\2\2fg\3\2\2\2gh\3\2\2\2hi\7\24\2\2i\13\3\2\2\2j")
+        buf.write("p\5\16\b\2kp\5\20\t\2lp\5\22\n\2mp\5\24\13\2np\5\"\22")
+        buf.write("\2oj\3\2\2\2ok\3\2\2\2ol\3\2\2\2om\3\2\2\2on\3\2\2\2p")
+        buf.write("\r\3\2\2\2qr\7\16\2\2rs\7?\2\2st\7\r\2\2tu\5\26\f\2u\17")
+        buf.write("\3\2\2\2vx\7\7\2\2wy\5\f\7\2xw\3\2\2\2yz\3\2\2\2zx\3\2")
+        buf.write("\2\2z{\3\2\2\2{|\3\2\2\2|}\7\b\2\2}\21\3\2\2\2~\u0080")
+        buf.write("\7\t\2\2\177\u0081\5\f\7\2\u0080\177\3\2\2\2\u0081\u0082")
+        buf.write("\3\2\2\2\u0082\u0080\3\2\2\2\u0082\u0083\3\2\2\2\u0083")
+        buf.write("\u0084\3\2\2\2\u0084\u0085\7\n\2\2\u0085\23\3\2\2\2\u0086")
+        buf.write("\u0087\7\13\2\2\u0087\u0088\5\26\f\2\u0088\u008a\7\4\2")
+        buf.write("\2\u0089\u008b\5\f\7\2\u008a\u0089\3\2\2\2\u008b\u008c")
+        buf.write("\3\2\2\2\u008c\u008a\3\2\2\2\u008c\u008d\3\2\2\2\u008d")
+        buf.write("\u0095\3\2\2\2\u008e\u008f\7\3\2\2\u008f\u0091\7\4\2\2")
+        buf.write("\u0090\u0092\5\f\7\2\u0091\u0090\3\2\2\2\u0092\u0093\3")
+        buf.write("\2\2\2\u0093\u0091\3\2\2\2\u0093\u0094\3\2\2\2\u0094\u0096")
+        buf.write("\3\2\2\2\u0095\u008e\3\2\2\2\u0095\u0096\3\2\2\2\u0096")
+        buf.write("\u0097\3\2\2\2\u0097\u0098\7\f\2\2\u0098\25\3\2\2\2\u0099")
+        buf.write("\u009e\5\30\r\2\u009a\u009b\t\2\2\2\u009b\u009d\5\30\r")
+        buf.write("\2\u009c\u009a\3\2\2\2\u009d\u00a0\3\2\2\2\u009e\u009c")
+        buf.write("\3\2\2\2\u009e\u009f\3\2\2\2\u009f\27\3\2\2\2\u00a0\u009e")
+        buf.write("\3\2\2\2\u00a1\u00a6\5\32\16\2\u00a2\u00a3\t\3\2\2\u00a3")
+        buf.write("\u00a5\5\32\16\2\u00a4\u00a2\3\2\2\2\u00a5\u00a8\3\2\2")
+        buf.write("\2\u00a6\u00a4\3\2\2\2\u00a6\u00a7\3\2\2\2\u00a7\31\3")
+        buf.write("\2\2\2\u00a8\u00a6\3\2\2\2\u00a9\u00b3\7>\2\2\u00aa\u00b3")
+        buf.write("\78\2\2\u00ab\u00b3\79\2\2\u00ac\u00ad\7\61\2\2\u00ad")
+        buf.write("\u00ae\5\26\f\2\u00ae\u00af\7\62\2\2\u00af\u00b3\3\2\2")
+        buf.write("\2\u00b0\u00b3\5\34\17\2\u00b1\u00b3\7?\2\2\u00b2\u00a9")
+        buf.write("\3\2\2\2\u00b2\u00aa\3\2\2\2\u00b2\u00ab\3\2\2\2\u00b2")
+        buf.write("\u00ac\3\2\2\2\u00b2\u00b0\3\2\2\2\u00b2\u00b1\3\2\2\2")
+        buf.write("\u00b3\33\3\2\2\2\u00b4\u00b5\7\35\2\2\u00b5\u00b6\5\26")
+        buf.write("\f\2\u00b6\u00b7\7\36\2\2\u00b7\u00b8\t\4\2\2\u00b8\35")
+        buf.write("\3\2\2\2\u00b9\u00ba\7\16\2\2\u00ba\u00bb\7?\2\2\u00bb")
+        buf.write("\u00bc\7\32\2\2\u00bc\u00bd\5\26\f\2\u00bd\u00be\7\r\2")
+        buf.write("\2\u00be\u00bf\5\26\f\2\u00bf\37\3\2\2\2\u00c0\u00c1\7")
+        buf.write("\16\2\2\u00c1\u00c2\7?\2\2\u00c2\u00c3\7\33\2\2\u00c3")
+        buf.write("\u00c4\7\61\2\2\u00c4\u00c5\5\26\f\2\u00c5\u00c6\7\6\2")
+        buf.write("\2\u00c6\u00c7\5\26\f\2\u00c7\u00c8\7\62\2\2\u00c8!\3")
+        buf.write("\2\2\2\u00c9\u00ca\7\5\2\2\u00ca\u00cb\5\26\f\2\u00cb")
+        buf.write("#\3\2\2\2\16/`foz\u0082\u008c\u0093\u0095\u009e\u00a6")
+        buf.write("\u00b2")
         return buf.getvalue()
 
 
@@ -132,25 +134,25 @@ class lenguajeutbParser ( Parser ):
     RULE_start_rule = 0
     RULE_nombre_programa = 1
     RULE_variables = 2
-    RULE_flujo = 3
-    RULE_sentencias = 4
-    RULE_asignacion = 5
-    RULE_ciclo_para = 6
-    RULE_ciclo_mientras = 7
-    RULE_si = 8
-    RULE_expresion = 9
-    RULE_div = 10
-    RULE_atom = 11
-    RULE_conversion = 12
-    RULE_acceso_lista = 13
-    RULE_acceso_matriz = 14
-    RULE_imprimir = 15
-    RULE_s = 16
+    RULE_declaracion = 3
+    RULE_flujo = 4
+    RULE_sentencias = 5
+    RULE_asignacion = 6
+    RULE_ciclo_para = 7
+    RULE_ciclo_mientras = 8
+    RULE_si = 9
+    RULE_expresion = 10
+    RULE_div = 11
+    RULE_atom = 12
+    RULE_conversion = 13
+    RULE_acceso_lista = 14
+    RULE_acceso_matriz = 15
+    RULE_imprimir = 16
 
-    ruleNames =  [ "start_rule", "nombre_programa", "variables", "flujo", 
-                   "sentencias", "asignacion", "ciclo_para", "ciclo_mientras", 
+    ruleNames =  [ "start_rule", "nombre_programa", "variables", "declaracion", 
+                   "flujo", "sentencias", "asignacion", "ciclo_para", "ciclo_mientras", 
                    "si", "expresion", "div", "atom", "conversion", "acceso_lista", 
-                   "acceso_matriz", "imprimir", "s" ]
+                   "acceso_matriz", "imprimir" ]
 
     EOF = Token.EOF
     SINO=1
@@ -246,12 +248,6 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_start_rule
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitStart_rule" ):
-                return visitor.visitStart_rule(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -290,12 +286,6 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_nombre_programa
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitNombre_programa" ):
-                return visitor.visitNombre_programa(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -329,128 +319,15 @@ class lenguajeutbParser ( Parser ):
         def FIN_VARIABLES(self):
             return self.getToken(lenguajeutbParser.FIN_VARIABLES, 0)
 
-        def TIPO(self, i:int=None):
+        def declaracion(self, i:int=None):
             if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO)
+                return self.getTypedRuleContexts(lenguajeutbParser.DeclaracionContext)
             else:
-                return self.getToken(lenguajeutbParser.TIPO, i)
+                return self.getTypedRuleContext(lenguajeutbParser.DeclaracionContext,i)
 
-        def TIPO_ENTERO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_ENTERO)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_ENTERO, i)
-
-        def NOMBRE(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.NOMBRE)
-            else:
-                return self.getToken(lenguajeutbParser.NOMBRE, i)
-
-        def IDENTIFICADOR(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.IDENTIFICADOR)
-            else:
-                return self.getToken(lenguajeutbParser.IDENTIFICADOR, i)
-
-        def VALOR_INICIAL(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.VALOR_INICIAL)
-            else:
-                return self.getToken(lenguajeutbParser.VALOR_INICIAL, i)
-
-        def ENTERO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.ENTERO)
-            else:
-                return self.getToken(lenguajeutbParser.ENTERO, i)
-
-        def TIPO_REAL(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_REAL)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_REAL, i)
-
-        def REAL(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.REAL)
-            else:
-                return self.getToken(lenguajeutbParser.REAL, i)
-
-        def TIPO_TEXTO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_TEXTO)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_TEXTO, i)
-
-        def TEXTO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TEXTO)
-            else:
-                return self.getToken(lenguajeutbParser.TEXTO, i)
-
-        def TIPO_BOOLEANO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_BOOLEANO)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_BOOLEANO, i)
-
-        def BOOL(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.BOOL)
-            else:
-                return self.getToken(lenguajeutbParser.BOOL, i)
-
-        def TIPO_LISTA_DE_ENTERO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_LISTA_DE_ENTERO)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_LISTA_DE_ENTERO, i)
-
-        def TIPO_LISTA_DE_TEXTO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_LISTA_DE_TEXTO)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_LISTA_DE_TEXTO, i)
-
-        def TIPO_LISTA_DE_REAL(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_LISTA_DE_REAL)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_LISTA_DE_REAL, i)
-
-        def TIPO_MATRIZ_DE_BOOLEANO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_MATRIZ_DE_BOOLEANO)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_MATRIZ_DE_BOOLEANO, i)
-
-        def TIPO_MATRIZ_DE_TEXTO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_MATRIZ_DE_TEXTO)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_MATRIZ_DE_TEXTO, i)
-
-        def TIPO_MATRIZ_DE_ENTERO(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_MATRIZ_DE_ENTERO)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_MATRIZ_DE_ENTERO, i)
-
-        def TIPO_MATRIZ_DE_REAL(self, i:int=None):
-            if i is None:
-                return self.getTokens(lenguajeutbParser.TIPO_MATRIZ_DE_REAL)
-            else:
-                return self.getToken(lenguajeutbParser.TIPO_MATRIZ_DE_REAL, i)
 
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_variables
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitVariables" ):
-                return visitor.visitVariables(self)
-            else:
-                return visitor.visitChildren(self)
 
 
 
@@ -464,128 +341,237 @@ class lenguajeutbParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 41
             self.match(lenguajeutbParser.VARIABLES)
-            self.state = 88
+            self.state = 43 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==lenguajeutbParser.TIPO:
+            while True:
                 self.state = 42
-                self.match(lenguajeutbParser.TIPO)
-                self.state = 84
-                self._errHandler.sync(self)
-                token = self._input.LA(1)
-                if token in [lenguajeutbParser.TIPO_ENTERO]:
-                    self.state = 43
-                    self.match(lenguajeutbParser.TIPO_ENTERO)
-                    self.state = 44
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 45
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    self.state = 46
-                    self.match(lenguajeutbParser.VALOR_INICIAL)
-                    self.state = 47
-                    self.match(lenguajeutbParser.ENTERO)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_REAL]:
-                    self.state = 48
-                    self.match(lenguajeutbParser.TIPO_REAL)
-                    self.state = 49
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 50
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    self.state = 51
-                    self.match(lenguajeutbParser.VALOR_INICIAL)
-                    self.state = 52
-                    self.match(lenguajeutbParser.REAL)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_TEXTO]:
-                    self.state = 53
-                    self.match(lenguajeutbParser.TIPO_TEXTO)
-                    self.state = 54
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 55
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    self.state = 56
-                    self.match(lenguajeutbParser.VALOR_INICIAL)
-                    self.state = 57
-                    self.match(lenguajeutbParser.TEXTO)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_BOOLEANO]:
-                    self.state = 58
-                    self.match(lenguajeutbParser.TIPO_BOOLEANO)
-                    self.state = 59
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 60
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    self.state = 61
-                    self.match(lenguajeutbParser.VALOR_INICIAL)
-                    self.state = 62
-                    self.match(lenguajeutbParser.BOOL)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_LISTA_DE_ENTERO]:
-                    self.state = 63
-                    self.match(lenguajeutbParser.TIPO_LISTA_DE_ENTERO)
-                    self.state = 64
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 65
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_LISTA_DE_TEXTO]:
-                    self.state = 66
-                    self.match(lenguajeutbParser.TIPO_LISTA_DE_TEXTO)
-                    self.state = 67
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 68
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_LISTA_DE_REAL]:
-                    self.state = 69
-                    self.match(lenguajeutbParser.TIPO_LISTA_DE_REAL)
-                    self.state = 70
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 71
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_MATRIZ_DE_BOOLEANO]:
-                    self.state = 72
-                    self.match(lenguajeutbParser.TIPO_MATRIZ_DE_BOOLEANO)
-                    self.state = 73
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 74
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_MATRIZ_DE_TEXTO]:
-                    self.state = 75
-                    self.match(lenguajeutbParser.TIPO_MATRIZ_DE_TEXTO)
-                    self.state = 76
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 77
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_MATRIZ_DE_ENTERO]:
-                    self.state = 78
-                    self.match(lenguajeutbParser.TIPO_MATRIZ_DE_ENTERO)
-                    self.state = 79
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 80
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    pass
-                elif token in [lenguajeutbParser.TIPO_MATRIZ_DE_REAL]:
-                    self.state = 81
-                    self.match(lenguajeutbParser.TIPO_MATRIZ_DE_REAL)
-                    self.state = 82
-                    self.match(lenguajeutbParser.NOMBRE)
-                    self.state = 83
-                    self.match(lenguajeutbParser.IDENTIFICADOR)
-                    pass
-                else:
-                    raise NoViableAltException(self)
-
-                self.state = 90
+                self.declaracion()
+                self.state = 45 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
+                if not (_la==lenguajeutbParser.TIPO):
+                    break
 
-            self.state = 91
+            self.state = 47
             self.match(lenguajeutbParser.FIN_VARIABLES)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+    class DeclaracionContext(ParserRuleContext):
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+            self.entero = None # Token
+            self.v_entero = None # ExpresionContext
+            self.real = None # Token
+            self.v_real = None # ExpresionContext
+            self.texto = None # Token
+            self.v_texto = None # Token
+            self.booleano = None # Token
+            self.v_booleano = None # ExpresionContext
+            self.lista_entero = None # Token
+            self.lista_texto = None # Token
+            self.lista_real = None # Token
+            self.lista_booleano = None # Token
+            self.matriz_booleano = None # Token
+            self.matriz_texto = None # Token
+            self.matriz_entero = None # Token
+            self.matriz_real = None # Token
+
+        def TIPO(self):
+            return self.getToken(lenguajeutbParser.TIPO, 0)
+
+        def TIPO_ENTERO(self):
+            return self.getToken(lenguajeutbParser.TIPO_ENTERO, 0)
+
+        def NOMBRE(self):
+            return self.getToken(lenguajeutbParser.NOMBRE, 0)
+
+        def VALOR_INICIAL(self):
+            return self.getToken(lenguajeutbParser.VALOR_INICIAL, 0)
+
+        def TIPO_REAL(self):
+            return self.getToken(lenguajeutbParser.TIPO_REAL, 0)
+
+        def TIPO_TEXTO(self):
+            return self.getToken(lenguajeutbParser.TIPO_TEXTO, 0)
+
+        def TIPO_BOOLEANO(self):
+            return self.getToken(lenguajeutbParser.TIPO_BOOLEANO, 0)
+
+        def TIPO_LISTA_DE_ENTERO(self):
+            return self.getToken(lenguajeutbParser.TIPO_LISTA_DE_ENTERO, 0)
+
+        def TIPO_LISTA_DE_TEXTO(self):
+            return self.getToken(lenguajeutbParser.TIPO_LISTA_DE_TEXTO, 0)
+
+        def TIPO_LISTA_DE_REAL(self):
+            return self.getToken(lenguajeutbParser.TIPO_LISTA_DE_REAL, 0)
+
+        def TIPO_LISTA_DE_BOOLEANO(self):
+            return self.getToken(lenguajeutbParser.TIPO_LISTA_DE_BOOLEANO, 0)
+
+        def TIPO_MATRIZ_DE_BOOLEANO(self):
+            return self.getToken(lenguajeutbParser.TIPO_MATRIZ_DE_BOOLEANO, 0)
+
+        def TIPO_MATRIZ_DE_TEXTO(self):
+            return self.getToken(lenguajeutbParser.TIPO_MATRIZ_DE_TEXTO, 0)
+
+        def TIPO_MATRIZ_DE_ENTERO(self):
+            return self.getToken(lenguajeutbParser.TIPO_MATRIZ_DE_ENTERO, 0)
+
+        def TIPO_MATRIZ_DE_REAL(self):
+            return self.getToken(lenguajeutbParser.TIPO_MATRIZ_DE_REAL, 0)
+
+        def IDENTIFICADOR(self):
+            return self.getToken(lenguajeutbParser.IDENTIFICADOR, 0)
+
+        def expresion(self):
+            return self.getTypedRuleContext(lenguajeutbParser.ExpresionContext,0)
+
+
+        def TEXTO(self):
+            return self.getToken(lenguajeutbParser.TEXTO, 0)
+
+        def getRuleIndex(self):
+            return lenguajeutbParser.RULE_declaracion
+
+
+
+
+    def declaracion(self):
+
+        localctx = lenguajeutbParser.DeclaracionContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 6, self.RULE_declaracion)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 49
+            self.match(lenguajeutbParser.TIPO)
+            self.state = 94
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [lenguajeutbParser.TIPO_ENTERO]:
+                self.state = 50
+                self.match(lenguajeutbParser.TIPO_ENTERO)
+                self.state = 51
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 52
+                localctx.entero = self.match(lenguajeutbParser.IDENTIFICADOR)
+                self.state = 53
+                self.match(lenguajeutbParser.VALOR_INICIAL)
+                self.state = 54
+                localctx.v_entero = self.expresion()
+                pass
+            elif token in [lenguajeutbParser.TIPO_REAL]:
+                self.state = 55
+                self.match(lenguajeutbParser.TIPO_REAL)
+                self.state = 56
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 57
+                localctx.real = self.match(lenguajeutbParser.IDENTIFICADOR)
+                self.state = 58
+                self.match(lenguajeutbParser.VALOR_INICIAL)
+                self.state = 59
+                localctx.v_real = self.expresion()
+                pass
+            elif token in [lenguajeutbParser.TIPO_TEXTO]:
+                self.state = 60
+                self.match(lenguajeutbParser.TIPO_TEXTO)
+                self.state = 61
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 62
+                localctx.texto = self.match(lenguajeutbParser.IDENTIFICADOR)
+                self.state = 63
+                self.match(lenguajeutbParser.VALOR_INICIAL)
+                self.state = 64
+                localctx.v_texto = self.match(lenguajeutbParser.TEXTO)
+                pass
+            elif token in [lenguajeutbParser.TIPO_BOOLEANO]:
+                self.state = 65
+                self.match(lenguajeutbParser.TIPO_BOOLEANO)
+                self.state = 66
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 67
+                localctx.booleano = self.match(lenguajeutbParser.IDENTIFICADOR)
+                self.state = 68
+                self.match(lenguajeutbParser.VALOR_INICIAL)
+                self.state = 69
+                localctx.v_booleano = self.expresion()
+                pass
+            elif token in [lenguajeutbParser.TIPO_LISTA_DE_ENTERO]:
+                self.state = 70
+                self.match(lenguajeutbParser.TIPO_LISTA_DE_ENTERO)
+                self.state = 71
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 72
+                localctx.lista_entero = self.match(lenguajeutbParser.IDENTIFICADOR)
+                pass
+            elif token in [lenguajeutbParser.TIPO_LISTA_DE_TEXTO]:
+                self.state = 73
+                self.match(lenguajeutbParser.TIPO_LISTA_DE_TEXTO)
+                self.state = 74
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 75
+                localctx.lista_texto = self.match(lenguajeutbParser.IDENTIFICADOR)
+                pass
+            elif token in [lenguajeutbParser.TIPO_LISTA_DE_REAL]:
+                self.state = 76
+                self.match(lenguajeutbParser.TIPO_LISTA_DE_REAL)
+                self.state = 77
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 78
+                localctx.lista_real = self.match(lenguajeutbParser.IDENTIFICADOR)
+                pass
+            elif token in [lenguajeutbParser.TIPO_LISTA_DE_BOOLEANO]:
+                self.state = 79
+                self.match(lenguajeutbParser.TIPO_LISTA_DE_BOOLEANO)
+                self.state = 80
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 81
+                localctx.lista_booleano = self.match(lenguajeutbParser.IDENTIFICADOR)
+                pass
+            elif token in [lenguajeutbParser.TIPO_MATRIZ_DE_BOOLEANO]:
+                self.state = 82
+                self.match(lenguajeutbParser.TIPO_MATRIZ_DE_BOOLEANO)
+                self.state = 83
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 84
+                localctx.matriz_booleano = self.match(lenguajeutbParser.IDENTIFICADOR)
+                pass
+            elif token in [lenguajeutbParser.TIPO_MATRIZ_DE_TEXTO]:
+                self.state = 85
+                self.match(lenguajeutbParser.TIPO_MATRIZ_DE_TEXTO)
+                self.state = 86
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 87
+                localctx.matriz_texto = self.match(lenguajeutbParser.IDENTIFICADOR)
+                pass
+            elif token in [lenguajeutbParser.TIPO_MATRIZ_DE_ENTERO]:
+                self.state = 88
+                self.match(lenguajeutbParser.TIPO_MATRIZ_DE_ENTERO)
+                self.state = 89
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 90
+                localctx.matriz_entero = self.match(lenguajeutbParser.IDENTIFICADOR)
+                pass
+            elif token in [lenguajeutbParser.TIPO_MATRIZ_DE_REAL]:
+                self.state = 91
+                self.match(lenguajeutbParser.TIPO_MATRIZ_DE_REAL)
+                self.state = 92
+                self.match(lenguajeutbParser.NOMBRE)
+                self.state = 93
+                localctx.matriz_real = self.match(lenguajeutbParser.IDENTIFICADOR)
+                pass
+            else:
+                raise NoViableAltException(self)
+
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -616,37 +602,31 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_flujo
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitFlujo" ):
-                return visitor.visitFlujo(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def flujo(self):
 
         localctx = lenguajeutbParser.FlujoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_flujo)
+        self.enterRule(localctx, 8, self.RULE_flujo)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 93
+            self.state = 96
             self.match(lenguajeutbParser.FLUJO)
-            self.state = 95 
+            self.state = 98 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 94
+                self.state = 97
                 self.sentencias()
-                self.state = 97 
+                self.state = 100 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << lenguajeutbParser.MOSTRAR_EN_PANTALLA) | (1 << lenguajeutbParser.INICIO_PARA) | (1 << lenguajeutbParser.INICIO_MIENTRAS) | (1 << lenguajeutbParser.INICIO_SI) | (1 << lenguajeutbParser.CAMBIAR_VALOR_DE))) != 0)):
                     break
 
-            self.state = 99
+            self.state = 102
             self.match(lenguajeutbParser.FIN_FLUJO)
         except RecognitionException as re:
             localctx.exception = re
@@ -685,42 +665,36 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_sentencias
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitSentencias" ):
-                return visitor.visitSentencias(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def sentencias(self):
 
         localctx = lenguajeutbParser.SentenciasContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_sentencias)
+        self.enterRule(localctx, 10, self.RULE_sentencias)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 106
+            self.state = 109
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [lenguajeutbParser.CAMBIAR_VALOR_DE]:
-                self.state = 101
+                self.state = 104
                 self.asignacion()
                 pass
             elif token in [lenguajeutbParser.INICIO_PARA]:
-                self.state = 102
+                self.state = 105
                 self.ciclo_para()
                 pass
             elif token in [lenguajeutbParser.INICIO_MIENTRAS]:
-                self.state = 103
+                self.state = 106
                 self.ciclo_mientras()
                 pass
             elif token in [lenguajeutbParser.INICIO_SI]:
-                self.state = 104
+                self.state = 107
                 self.si()
                 pass
             elif token in [lenguajeutbParser.MOSTRAR_EN_PANTALLA]:
-                self.state = 105
+                self.state = 108
                 self.imprimir()
                 pass
             else:
@@ -756,28 +730,22 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_asignacion
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitAsignacion" ):
-                return visitor.visitAsignacion(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def asignacion(self):
 
         localctx = lenguajeutbParser.AsignacionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_asignacion)
+        self.enterRule(localctx, 12, self.RULE_asignacion)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 108
-            self.match(lenguajeutbParser.CAMBIAR_VALOR_DE)
-            self.state = 109
-            self.match(lenguajeutbParser.IDENTIFICADOR)
-            self.state = 110
-            self.match(lenguajeutbParser.POR)
             self.state = 111
+            self.match(lenguajeutbParser.CAMBIAR_VALOR_DE)
+            self.state = 112
+            self.match(lenguajeutbParser.IDENTIFICADOR)
+            self.state = 113
+            self.match(lenguajeutbParser.POR)
+            self.state = 114
             self.expresion()
         except RecognitionException as re:
             localctx.exception = re
@@ -809,37 +777,31 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_ciclo_para
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitCiclo_para" ):
-                return visitor.visitCiclo_para(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def ciclo_para(self):
 
         localctx = lenguajeutbParser.Ciclo_paraContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_ciclo_para)
+        self.enterRule(localctx, 14, self.RULE_ciclo_para)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 113
+            self.state = 116
             self.match(lenguajeutbParser.INICIO_PARA)
-            self.state = 115 
+            self.state = 118 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 114
+                self.state = 117
                 self.sentencias()
-                self.state = 117 
+                self.state = 120 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << lenguajeutbParser.MOSTRAR_EN_PANTALLA) | (1 << lenguajeutbParser.INICIO_PARA) | (1 << lenguajeutbParser.INICIO_MIENTRAS) | (1 << lenguajeutbParser.INICIO_SI) | (1 << lenguajeutbParser.CAMBIAR_VALOR_DE))) != 0)):
                     break
 
-            self.state = 119
+            self.state = 122
             self.match(lenguajeutbParser.FIN_PARA)
         except RecognitionException as re:
             localctx.exception = re
@@ -871,37 +833,31 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_ciclo_mientras
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitCiclo_mientras" ):
-                return visitor.visitCiclo_mientras(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def ciclo_mientras(self):
 
         localctx = lenguajeutbParser.Ciclo_mientrasContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_ciclo_mientras)
+        self.enterRule(localctx, 16, self.RULE_ciclo_mientras)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 121
+            self.state = 124
             self.match(lenguajeutbParser.INICIO_MIENTRAS)
-            self.state = 123 
+            self.state = 126 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 122
+                self.state = 125
                 self.sentencias()
-                self.state = 125 
+                self.state = 128 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << lenguajeutbParser.MOSTRAR_EN_PANTALLA) | (1 << lenguajeutbParser.INICIO_PARA) | (1 << lenguajeutbParser.INICIO_MIENTRAS) | (1 << lenguajeutbParser.INICIO_SI) | (1 << lenguajeutbParser.CAMBIAR_VALOR_DE))) != 0)):
                     break
 
-            self.state = 127
+            self.state = 130
             self.match(lenguajeutbParser.FIN_MIENTRAS)
         except RecognitionException as re:
             localctx.exception = re
@@ -946,55 +902,49 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_si
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitSi" ):
-                return visitor.visitSi(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def si(self):
 
         localctx = lenguajeutbParser.SiContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_si)
+        self.enterRule(localctx, 18, self.RULE_si)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 129
+            self.state = 132
             self.match(lenguajeutbParser.INICIO_SI)
-            self.state = 130
+            self.state = 133
             self.expresion()
-            self.state = 131
+            self.state = 134
             self.match(lenguajeutbParser.ENTONCES)
-            self.state = 133 
+            self.state = 136 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 132
+                self.state = 135
                 self.sentencias()
-                self.state = 135 
+                self.state = 138 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << lenguajeutbParser.MOSTRAR_EN_PANTALLA) | (1 << lenguajeutbParser.INICIO_PARA) | (1 << lenguajeutbParser.INICIO_MIENTRAS) | (1 << lenguajeutbParser.INICIO_SI) | (1 << lenguajeutbParser.CAMBIAR_VALOR_DE))) != 0)):
                     break
 
-            self.state = 144
+            self.state = 147
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==lenguajeutbParser.SINO:
-                self.state = 137
+                self.state = 140
                 self.match(lenguajeutbParser.SINO)
-                self.state = 138
+                self.state = 141
                 self.match(lenguajeutbParser.ENTONCES)
-                self.state = 140 
+                self.state = 143 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while True:
-                    self.state = 139
+                    self.state = 142
                     self.sentencias()
-                    self.state = 142 
+                    self.state = 145 
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
                     if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << lenguajeutbParser.MOSTRAR_EN_PANTALLA) | (1 << lenguajeutbParser.INICIO_PARA) | (1 << lenguajeutbParser.INICIO_MIENTRAS) | (1 << lenguajeutbParser.INICIO_SI) | (1 << lenguajeutbParser.CAMBIAR_VALOR_DE))) != 0)):
@@ -1002,7 +952,7 @@ class lenguajeutbParser ( Parser ):
 
 
 
-            self.state = 146
+            self.state = 149
             self.match(lenguajeutbParser.FIN_SI)
         except RecognitionException as re:
             localctx.exception = re
@@ -1040,38 +990,32 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_expresion
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitExpresion" ):
-                return visitor.visitExpresion(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def expresion(self):
 
         localctx = lenguajeutbParser.ExpresionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_expresion)
+        self.enterRule(localctx, 20, self.RULE_expresion)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 148
+            self.state = 151
             self.div()
-            self.state = 153
+            self.state = 156
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==lenguajeutbParser.SUMA or _la==lenguajeutbParser.RESTA:
-                self.state = 149
+                self.state = 152
                 _la = self._input.LA(1)
                 if not(_la==lenguajeutbParser.SUMA or _la==lenguajeutbParser.RESTA):
                     self._errHandler.recoverInline(self)
                 else:
                     self._errHandler.reportMatch(self)
                     self.consume()
-                self.state = 150
+                self.state = 153
                 self.div()
-                self.state = 155
+                self.state = 158
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1117,38 +1061,32 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_div
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitDiv" ):
-                return visitor.visitDiv(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def div(self):
 
         localctx = lenguajeutbParser.DivContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_div)
+        self.enterRule(localctx, 22, self.RULE_div)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 156
+            self.state = 159
             self.atom()
-            self.state = 161
+            self.state = 164
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << lenguajeutbParser.MULTIPLICACION) | (1 << lenguajeutbParser.DIVISION) | (1 << lenguajeutbParser.MODULO))) != 0):
-                self.state = 157
+                self.state = 160
                 _la = self._input.LA(1)
                 if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << lenguajeutbParser.MULTIPLICACION) | (1 << lenguajeutbParser.DIVISION) | (1 << lenguajeutbParser.MODULO))) != 0)):
                     self._errHandler.recoverInline(self)
                 else:
                     self._errHandler.reportMatch(self)
                     self.consume()
-                self.state = 158
+                self.state = 161
                 self.atom()
-                self.state = 163
+                self.state = 166
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1165,6 +1103,18 @@ class lenguajeutbParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+            self.t = None # Token
+            self.e = None # Token
+            self.r = None # Token
+            self.exp = None # ExpresionContext
+            self.conv = None # ConversionContext
+            self.iden = None # Token
+
+        def PAR_IZQ(self):
+            return self.getToken(lenguajeutbParser.PAR_IZQ, 0)
+
+        def PAR_DER(self):
+            return self.getToken(lenguajeutbParser.PAR_DER, 0)
 
         def TEXTO(self):
             return self.getToken(lenguajeutbParser.TEXTO, 0)
@@ -1175,15 +1125,9 @@ class lenguajeutbParser ( Parser ):
         def REAL(self):
             return self.getToken(lenguajeutbParser.REAL, 0)
 
-        def PAR_IZQ(self):
-            return self.getToken(lenguajeutbParser.PAR_IZQ, 0)
-
         def expresion(self):
             return self.getTypedRuleContext(lenguajeutbParser.ExpresionContext,0)
 
-
-        def PAR_DER(self):
-            return self.getToken(lenguajeutbParser.PAR_DER, 0)
 
         def conversion(self):
             return self.getTypedRuleContext(lenguajeutbParser.ConversionContext,0)
@@ -1195,51 +1139,45 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_atom
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitAtom" ):
-                return visitor.visitAtom(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def atom(self):
 
         localctx = lenguajeutbParser.AtomContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_atom)
+        self.enterRule(localctx, 24, self.RULE_atom)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 173
+            self.state = 176
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [lenguajeutbParser.TEXTO]:
-                self.state = 164
-                self.match(lenguajeutbParser.TEXTO)
+                self.state = 167
+                localctx.t = self.match(lenguajeutbParser.TEXTO)
                 pass
             elif token in [lenguajeutbParser.ENTERO]:
-                self.state = 165
-                self.match(lenguajeutbParser.ENTERO)
+                self.state = 168
+                localctx.e = self.match(lenguajeutbParser.ENTERO)
                 pass
             elif token in [lenguajeutbParser.REAL]:
-                self.state = 166
-                self.match(lenguajeutbParser.REAL)
+                self.state = 169
+                localctx.r = self.match(lenguajeutbParser.REAL)
                 pass
             elif token in [lenguajeutbParser.PAR_IZQ]:
-                self.state = 167
+                self.state = 170
                 self.match(lenguajeutbParser.PAR_IZQ)
-                self.state = 168
-                self.expresion()
-                self.state = 169
+                self.state = 171
+                localctx.exp = self.expresion()
+                self.state = 172
                 self.match(lenguajeutbParser.PAR_DER)
                 pass
             elif token in [lenguajeutbParser.CONVERTIR]:
-                self.state = 171
-                self.conversion()
+                self.state = 174
+                localctx.conv = self.conversion()
                 pass
             elif token in [lenguajeutbParser.IDENTIFICADOR]:
-                self.state = 172
-                self.match(lenguajeutbParser.IDENTIFICADOR)
+                self.state = 175
+                localctx.iden = self.match(lenguajeutbParser.IDENTIFICADOR)
                 pass
             else:
                 raise NoViableAltException(self)
@@ -1283,29 +1221,23 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_conversion
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitConversion" ):
-                return visitor.visitConversion(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def conversion(self):
 
         localctx = lenguajeutbParser.ConversionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_conversion)
+        self.enterRule(localctx, 26, self.RULE_conversion)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 175
-            self.match(lenguajeutbParser.CONVERTIR)
-            self.state = 176
-            self.expresion()
-            self.state = 177
-            self.match(lenguajeutbParser.A)
             self.state = 178
+            self.match(lenguajeutbParser.CONVERTIR)
+            self.state = 179
+            self.expresion()
+            self.state = 180
+            self.match(lenguajeutbParser.A)
+            self.state = 181
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << lenguajeutbParser.TIPO_ENTERO) | (1 << lenguajeutbParser.TIPO_REAL) | (1 << lenguajeutbParser.TIPO_BOOLEANO) | (1 << lenguajeutbParser.TIPO_TEXTO))) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1348,32 +1280,26 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_acceso_lista
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitAcceso_lista" ):
-                return visitor.visitAcceso_lista(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def acceso_lista(self):
 
         localctx = lenguajeutbParser.Acceso_listaContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_acceso_lista)
+        self.enterRule(localctx, 28, self.RULE_acceso_lista)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 180
-            self.match(lenguajeutbParser.CAMBIAR_VALOR_DE)
-            self.state = 181
-            self.match(lenguajeutbParser.IDENTIFICADOR)
-            self.state = 182
-            self.match(lenguajeutbParser.EN_POSICION)
             self.state = 183
-            self.expresion()
+            self.match(lenguajeutbParser.CAMBIAR_VALOR_DE)
             self.state = 184
-            self.match(lenguajeutbParser.POR)
+            self.match(lenguajeutbParser.IDENTIFICADOR)
             self.state = 185
+            self.match(lenguajeutbParser.EN_POSICION)
+            self.state = 186
+            self.expresion()
+            self.state = 187
+            self.match(lenguajeutbParser.POR)
+            self.state = 188
             self.expresion()
         except RecognitionException as re:
             localctx.exception = re
@@ -1417,36 +1343,30 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_acceso_matriz
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitAcceso_matriz" ):
-                return visitor.visitAcceso_matriz(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def acceso_matriz(self):
 
         localctx = lenguajeutbParser.Acceso_matrizContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_acceso_matriz)
+        self.enterRule(localctx, 30, self.RULE_acceso_matriz)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 187
-            self.match(lenguajeutbParser.CAMBIAR_VALOR_DE)
-            self.state = 188
-            self.match(lenguajeutbParser.IDENTIFICADOR)
-            self.state = 189
-            self.match(lenguajeutbParser.EN_COORDENADA)
             self.state = 190
-            self.match(lenguajeutbParser.PAR_IZQ)
+            self.match(lenguajeutbParser.CAMBIAR_VALOR_DE)
             self.state = 191
-            self.expresion()
+            self.match(lenguajeutbParser.IDENTIFICADOR)
             self.state = 192
-            self.match(lenguajeutbParser.COMA)
+            self.match(lenguajeutbParser.EN_COORDENADA)
             self.state = 193
-            self.expresion()
+            self.match(lenguajeutbParser.PAR_IZQ)
             self.state = 194
+            self.expresion()
+            self.state = 195
+            self.match(lenguajeutbParser.COMA)
+            self.state = 196
+            self.expresion()
+            self.state = 197
             self.match(lenguajeutbParser.PAR_DER)
         except RecognitionException as re:
             localctx.exception = re
@@ -1472,62 +1392,19 @@ class lenguajeutbParser ( Parser ):
         def getRuleIndex(self):
             return lenguajeutbParser.RULE_imprimir
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitImprimir" ):
-                return visitor.visitImprimir(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def imprimir(self):
 
         localctx = lenguajeutbParser.ImprimirContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_imprimir)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 196
-            self.match(lenguajeutbParser.MOSTRAR_EN_PANTALLA)
-            self.state = 197
-            self.expresion()
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-    class SContext(ParserRuleContext):
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def TEXTO(self):
-            return self.getToken(lenguajeutbParser.TEXTO, 0)
-
-        def getRuleIndex(self):
-            return lenguajeutbParser.RULE_s
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitS" ):
-                return visitor.visitS(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def s(self):
-
-        localctx = lenguajeutbParser.SContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 32, self.RULE_s)
+        self.enterRule(localctx, 32, self.RULE_imprimir)
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 199
-            self.match(lenguajeutbParser.TEXTO)
+            self.match(lenguajeutbParser.MOSTRAR_EN_PANTALLA)
+            self.state = 200
+            self.expresion()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)

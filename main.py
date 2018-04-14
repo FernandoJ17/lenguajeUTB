@@ -11,4 +11,4 @@ if __name__ == '__main__':
     parser = lenguajeutbParser(stream)
     tree = parser.start_rule()
     visitor = lenguajeutbVisitor()
-    print(visitor.visit(tree))
+    visitor.visit(tree)
