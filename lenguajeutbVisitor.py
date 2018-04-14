@@ -159,6 +159,8 @@ class lenguajeutbVisitor(ParseTreeVisitor):
     def visitAtom(self, ctx: lenguajeutbParser.AtomContext):
         if ctx.e is not None:
             return int
+        elif ctx.b is not None:
+            return bool
         elif ctx.t is not None:
             return str
         elif ctx.r is not None:
